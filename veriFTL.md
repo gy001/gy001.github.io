@@ -75,7 +75,7 @@ formalized in the proof assistant Coq.
 
 ##### Verify: 
 
-```
+```bash
 $ cd veriFTL/bast0-coq
 $ make Verification.vo
 ```
