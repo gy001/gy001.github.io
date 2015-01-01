@@ -1,6 +1,6 @@
 # Yu Guo
 
-![Grand Teton](/me/me.png)
+![Grand Teton](me/me.png)
 
 contact me? Please run it in `bash`
 
@@ -20,7 +20,7 @@ The [CertiKOS](http://flint.cs.yale.edu/certikos/) project is a related research
 ### Current projects
 
 + Cerified RTOS
-+ Cerified Flash Translation Layer (FTL) for NAND Flash ([more](/veriFTL))
++ Cerified Flash Translation Layer (FTL) for NAND Flash ([more](veriFTL.html))
 + Cerified File System for NAND Flash
 + Android App Scanner
 
