@@ -5,7 +5,7 @@
 contact me? Please run it in `bash`
 
 ```bash
-$ echo "aciclo {at} gmail_com" |sed -e 's/_/\./g' -e 's/\s*{at}\s*/@/'
+$ echo "aciclo {at} gmail_com" |sed -e 's/_/\./g' -e 's/\s*\ {at}\ \s*/@/'
 ```
 
 ### Research on System Software Certification
