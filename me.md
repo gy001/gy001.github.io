@@ -1,5 +1,6 @@
 # Yu Guo
 
+![Grand Teton](/me/me.png)
 
 contact me? Please run it in `bash`
 
