@@ -19,8 +19,9 @@ The [CertiKOS](http://flint.cs.yale.edu/certikos/) project is a related research
 
 ### Current projects
 
-+ Verified RTOS
-+ Verified Storage System Software
++ Cerified RTOS
++ Cerified Flash Translation Layer (FTL) for NAND Flash ([more](/veriFTL))
++ Cerified File System for NAND Flash
 + Android App Scanner
 
 ### Hacking 
