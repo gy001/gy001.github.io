@@ -1,7 +1,5 @@
 ## Cerified Flash Translation Layer (FTL) for NAND Flash
 
-
-
 ### Introduction 
 ----
 **NAND** flash memory has been deployed in various computer systems from
@@ -12,7 +10,6 @@ denser.
 Although flash offers a huge performance improvement, making
 it as easy and efficient to use as traditional magnetic disk
 drives presents a challenge. 
-
 
 #### What's FTL?
 
@@ -50,7 +47,7 @@ However, the FTL software is not as reliable as we thought according to a study 
 
 On the one hand, much work has been done about verifying file systems in the past decade, however, their research results assume that the devices underlying are functionally correct and reliable. On the other hand, few work can be found about modeling or verifying the FTL bridging NAND flash and file systems. We think that the FTL software (or firmware), growing rapidly, is definitely worth doing research to improve the reliability of NAND flash based devices.
 
-#### What can you learn from this project?
+#### What could you get from this project?
 
 + The way of defining FTL algorithm formally.
 + The way of specifying correctness requirement of the software.
