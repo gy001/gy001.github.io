@@ -10,12 +10,15 @@ $ echo "aciclo {at} gmail_com" |sed -e 's/_/\./g' -e 's/\s*\ {at}\ \s*/@/'
 
 ### Research on System Software Certification
 
-The system software has been not supprisingly **buggy**. The bugs prevail among operating system kernels, file systems and device drivers. According to a recent research, averagely 
-50% of bugs are due to semantics misunderstanding. In other words, nearly half of bugs are introduced at the time of design. 
+The system software has been unsupprisingly **buggy**. The bugs prevail among operating system kernels, file systems and device drivers. According to a recent [study][Lu-FAST13], nearly 55% of filesystem bugs (found in mainline Linux) are due to semantics misunderstanding or incorrect design. 
 
-What I am doing is mainly to develop methods to formally design system software such that the software in the future are more dependable. The dependability comes from the clear, concise, accurate and correct semaitcs (or specifications). 
+What I am doing focus on developing methods to formally design system software, so as to make the software are more dependable. The dependability means the software is developed with clear, concise, accurate and correct semaitcs (or specifications). 
 
-The [CertiKOS](http://flint.cs.yale.edu/certikos/) project is a related research project going on at Yale University. 
+The [CertiKOS][Yale-CertiKOS] project is a related research project going on at Yale University. 
+
+[Zheng-FAST13]: https://www.usenix.org/conference/fast13/technical-sessions/presentation/zheng
+[Lu-FAST13]: https://www.usenix.org/conference/fast13/technical-sessions/presentation/lu
+[Yale-CertiKOS]: http://flint.cs.yale.edu/certikos/
 
 ### Current projects
 
@@ -26,7 +29,7 @@ The [CertiKOS](http://flint.cs.yale.edu/certikos/) project is a related research
 
 ### Hacking 
 
-My most favorite programming language is **[Coq](https://coq.inria.fr/)**, which is an interactive development environment for formal proofs. The popular proof assistant has widely been used in the programming language community. Notably, it was received [ACM Software System Award](http://awards.acm.org/software_system/) in 2013. The basic theory behind it is called CiC, Calculus of Inductive Constructions. It is actually a variant of lambda calculus that is atonishingly elegant, and capable of expressing both computer programs and mathematical proofs. In Barendregt's lambda cube, CiC is the opposite vertex to the vertex as simple typed lambda calculus. 
+My favorite programming language is Gallina, the specification language of **[Coq](https://coq.inria.fr/)**. Coq is an interactive development environment for formal proofs that has widely been used in the programming language community. It was received [ACM Software System Award](http://awards.acm.org/software_system/) in 2013. The basic theory behind Coq is called Calculus of Inductive Constructions (CiC). It is actually a variant of typed lambda calculus that is atonishingly elegant, and thus capable of expressing both computer programs and mathematical proofs. In Barendregt's lambda cube, CiC is the opposite vertex to the vertex as simple typed lambda calculus. 
 
 ### Teaching 
 
